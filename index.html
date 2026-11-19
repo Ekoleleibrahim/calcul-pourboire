@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="myCalculate">
+        <h1>Calculateur de pourboire</h1>
+        <p>Saisissez le montant de la facture et le pourcentage du pourboire pour calculer le total.</p>
+
+        <form autocomplete="off">
+            <div class="container-montant">
+                <label for="montant">Montant de la facture:</label> <br>
+                <input type="text" name="montant" id="montant">
+            </div>
+            <div class="container-pourboire">
+                <label for="pourboire">Pourcentage du pourboire:</label> <br>
+                <input type="text" name="pourboire" id="pourboire">
+            </div>
+            <div>
+                <button type="button" id="calcul">CALCULER</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
